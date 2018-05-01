@@ -22,6 +22,7 @@ public class HowSpecialService {
     private static double howSpecialAmI(double yourGrade) {
         double probability = 0;
         // your code goes here
+        NormalDistribution myNormalDistribution = new NormalDistribution(0, 1);
 
 
         return probability;
